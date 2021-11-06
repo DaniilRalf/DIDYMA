@@ -121,22 +121,21 @@ b{
     font-size: 30px;
 }
 .faq-nav-item{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
     padding-top: 20px;
     padding-bottom: 20px;
 
     border-top: 1px solid #CFCFC1;
 }
-.faq-nav-item:nth-child(4){
-    border-bottom: 1px solid #CFCFC1; 
+.faq-nav-item-block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .faq-nav-item-txt{
     font-weight: 500;
     font-size: 20px;
 }
+
 
 
 /* FOOTER-------------------------------------------- */
@@ -174,5 +173,7 @@ b{
 .footer-nav-list__left,
 .footer-nav-list__right{
     font-weight: 300;
-    font-size: 30px;
+    /* font-size: 30px; */
+    font-size: 12px;
+    text-transform: uppercase;
 }

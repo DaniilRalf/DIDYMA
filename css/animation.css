@@ -1,0 +1,65 @@
+/* HEADER-------------------- */
+.header-link{
+    padding: 5px;
+    border-bottom: 1px solid transparent;  /*убираем скачуи при появлении бордера*/
+}
+.header-link:hover{
+    color: #94A583;
+    border-bottom: 1px solid #94A583; 
+}
+
+/* ABOUT------------------- */
+.btn{
+    transition-property: background-color color;
+    transition-duration: 0.15s;
+    transition-timing-function: linear;
+}
+.btn:hover{
+    background-color: #94A583;
+    color: white;
+}
+
+
+/* FAQ---------------------------- */
+.faq-nav-item path{
+    transition-property: fill;
+    transition-duration: 0.15s;
+    transition-timing-function: linear;
+}
+.faq-nav-item .faq-nav-item-txt{
+    transition-property: color;
+    transition-duration: 0.15s;
+    transition-timing-function: linear;
+}
+
+.faq-nav-item:hover{
+    cursor: pointer;
+}
+.faq-nav-item:hover .faq-nav-item-txt{
+    color: #94A583;
+}
+.faq-nav-item:hover path{
+    fill: #94A583;
+}
+
+
+/* JS------- */
+#faq-description-1,
+#faq-description-2,
+#faq-description-3,
+#faq-description-4{
+    transition-property: height, opacity, margin-top;
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
+}
+
+.faq-nav-item-description{
+    height: 0;
+    opacity: 0;
+}
+.faq-nav-item-description__active{
+    height: 60px;
+    margin-top: 25px;
+
+    opacity: 1;
+}
