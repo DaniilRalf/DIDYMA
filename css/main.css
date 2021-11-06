@@ -1,0 +1,178 @@
+/* FONTS------------------------------------------------ */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap');
+/* Montserrat -  medium, light */
+
+
+/* GLOBAL---------------------------------------------- */
+*{
+    box-sizing: border-box;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    color: #484843;
+}
+a{
+    text-decoration: none;
+    color: #484843;
+}
+p, ul, h1, h2{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.container{
+    max-width: 1440px;
+    margin: auto;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+b{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+
+/* HEADER------------------------------------------------ */
+.header{
+    background-color: #F6E8CD;
+}
+.header-main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.header-item{
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 1;
+
+    text-transform: uppercase;
+}
+.header-link{
+    font-size: 12px;
+}
+
+/* ABOUT------------------------------------------------ */
+.about-background{
+    background-image: url('/img/about.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.about-main{
+    display: flex;
+    justify-content: space-between;
+}
+.anna{
+    background-image: url('/img/anna.png');
+    height: 800px;  
+    background-position: left center;
+}
+.alina{
+    background-image: url('/img/alina.png');
+    background-position: right center;
+}
+.about-main-block{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.about-main-block-txt:nth-child(1){
+    margin-top: 85px;
+}
+.about-main-block-txt:nth-child(2){
+    margin-top: 115px;
+    margin-left: auto;
+}
+.about-main-block-txt:nth-child(3){
+    margin-top: 165px;
+}
+.about-main-block-txt:nth-child(4){
+    margin-top: 140px;
+    margin-left: auto;
+    margin-right: auto;
+
+    text-transform: uppercase;
+}
+.btn{
+    padding: 20px;
+
+    border: 3px solid #94A583;
+    border-radius: 30px;
+}
+
+
+/* FAQ---------------------------------------------- */
+.faq-heading{
+    margin-top: 100px;
+    margin-bottom: 25px;
+
+    font-weight: 300;
+    font-size: 30px;
+}
+.faq-nav-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    border-top: 1px solid #CFCFC1;
+}
+.faq-nav-item:nth-child(4){
+    border-bottom: 1px solid #CFCFC1; 
+}
+.faq-nav-item-txt{
+    font-weight: 500;
+    font-size: 20px;
+}
+
+
+/* FOOTER-------------------------------------------- */
+.footer{
+    background: #F6E8CD;
+}
+.footer-main{
+    height: 100px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-top: 50px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.footer-nav-list{
+    display: flex;
+}
+.footer-main-heading, 
+.footer-nav-list{
+    width: 33.33%;
+}
+.footer-nav-item:not(:nth-child(3)){
+    margin-right: 30px;
+}
+.footer-nav-list__right{
+    text-align: right;
+}
+.footer-nav-img{
+    height: 60px;
+}
+
+.footer-nav-list__left,
+.footer-nav-list__right{
+    font-weight: 300;
+    font-size: 30px;
+}
